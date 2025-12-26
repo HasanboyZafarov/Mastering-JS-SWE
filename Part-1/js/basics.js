@@ -72,3 +72,11 @@
 // person[selection] = "Mary";
 
 // console.log(person);
+
+// Array
+let selectedColors = ["red", "blue"];
+selectedColors[2] = "green";
+selectedColors[3] = 4;
+console.log(selectedColors);
+
+// Array is an object that helps us store multiple values in a single variable
