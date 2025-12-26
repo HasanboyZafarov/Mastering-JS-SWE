@@ -53,3 +53,22 @@
 
 // In Javascript we dont have two separate types for Integer and Float, we have only one type: Number
 
+// Reference Types
+
+// Obeject, Array, Function
+// let name = "Mosh";
+// let age = 30;
+
+// let person = {
+//   name: "Mosh",
+//   age: 30,
+// };
+
+// Dot Notation
+// person.name = "John";
+
+// Bracket Notation
+// let selection = "name";
+// person[selection] = "Mary";
+
+// console.log(person);
