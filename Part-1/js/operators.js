@@ -112,3 +112,17 @@
 // let defaultColor = "Blue";
 // let currentColor = userColor || defaultColor;
 // console.log(currentColor); // "Blue"
+
+
+// Bitwise Operators
+
+// Bitwise AND (&), Bitwise OR (|), Bitwise NOT (~), Bitwise XOR (^)
+let a = 5; // In binary: 0101
+let b = 3; // In binary: 0011   
+console.log(a & b); // Bitwise AND: 0001 -> 1
+console.log(a | b); // Bitwise OR: 0111 -> 7
+console.log(~a);    // Bitwise NOT: 1010 -> -6
+console.log(a ^ b); // Bitwise XOR: 0110 -> 6
+// Bitwise operators work on the binary representations of numbers
+// They are less commonly used in high-level programming tasks
+
