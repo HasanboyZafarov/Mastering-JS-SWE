@@ -22,3 +22,16 @@
 
 // Decrement Operators
 // console.log(--x); // 9
+
+// Assignment Operators
+// let x = 10;
+
+// x += 5; // x = x + 5
+// console.log(x); // 15
+
+// x *= 2; // x = x * 2
+// console.log(x); // 30
+
+// All the arythmetic operators can be used with assignment operators
+// x %= 7; // x = x % 7
+// console.log(x); // 2
