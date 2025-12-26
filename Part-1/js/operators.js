@@ -117,12 +117,22 @@
 // Bitwise Operators
 
 // Bitwise AND (&), Bitwise OR (|), Bitwise NOT (~), Bitwise XOR (^)
-let a = 5; // In binary: 0101
-let b = 3; // In binary: 0011   
-console.log(a & b); // Bitwise AND: 0001 -> 1
-console.log(a | b); // Bitwise OR: 0111 -> 7
-console.log(~a);    // Bitwise NOT: 1010 -> -6
-console.log(a ^ b); // Bitwise XOR: 0110 -> 6
+// let a = 5; // In binary: 0101
+// let b = 3; // In binary: 0011   
+// console.log(a & b); // Bitwise AND: 0001 -> 1
+// console.log(a | b); // Bitwise OR: 0111 -> 7
+// console.log(~a);    // Bitwise NOT: 1010 -> -6
+// console.log(a ^ b); // Bitwise XOR: 0110 -> 6
 // Bitwise operators work on the binary representations of numbers
 // They are less commonly used in high-level programming tasks
 
+// Operators Precedence
+
+// Precedence determines the order in which operators are evaluated
+// Parentheses have the highest precedence
+// Multiplication and Division have higher precedence than Addition and Subtraction
+
+let result = 10 + 5 * 2; // Multiplication first, then Addition
+console.log(result); // 20
+result = (10 + 5) * 2; // Parentheses first, then Multiplication
+console.log(result); // 30
