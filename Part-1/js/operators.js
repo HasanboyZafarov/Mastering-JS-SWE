@@ -35,3 +35,19 @@
 // All the arythmetic operators can be used with assignment operators
 // x %= 7; // x = x % 7
 // console.log(x); // 2
+
+// Comparison Operators
+
+// let x = 1;
+
+// // Relational Operators
+// console.log(x > 0); // Greater than - true
+// console.log(x < 0); // Less than - false
+// console.log(x >= 1); // Greater than or equal to - true
+// console.log(x <= 1); // Less than or equal to - true
+
+// // Equality Operators
+// console.log(x == "1"); // Equal to - true
+// console.log(x === "1"); // Strict equal to - false
+// console.log(x != 2); // Not equal to - true
+// console.log(x !== "1"); // Strict not equal to - true
