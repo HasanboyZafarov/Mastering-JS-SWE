@@ -77,3 +77,16 @@
 // for (let i = 0; i > 0; i++) {}
 
 // Avoid infinite loops by ensuring the loop condition will eventually be false.
+
+// For ... in
+// let person = {
+//   name: "Mosh",
+//   age: 30,
+// };
+
+// for (key in person) console.log(key, person[key]);
+
+// const colors = ["red", "green", "blue"];
+// for (index in colors) {
+//   console.log(colors[index]);
+// }
