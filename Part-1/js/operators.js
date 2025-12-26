@@ -72,3 +72,22 @@
 // let type = points > 100 ? "Gold" : "Silver";
 // console.log(type);
 
+// Logical Operators
+
+// Logical AND (&&), Logical OR (||), Logical NOT (!)
+// console.log(true && true); // true
+// console.log(true && false); // false
+
+// console.log(true || false); // true
+// console.log(false || false); // false
+
+// console.log(!true); // false
+// console.log(!false); // true
+
+// let highIncome = false;
+// let goodCreditScore = false;
+// let eligibleForLoan = highIncome || goodCreditScore;
+// console.log("Eligible for Loan", eligibleForLoan);
+
+// let applicationRefused = !eligibleForLoan;
+// console.log("Application Refused", applicationRefused);
