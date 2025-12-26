@@ -113,12 +113,11 @@
 // let currentColor = userColor || defaultColor;
 // console.log(currentColor); // "Blue"
 
-
 // Bitwise Operators
 
 // Bitwise AND (&), Bitwise OR (|), Bitwise NOT (~), Bitwise XOR (^)
 // let a = 5; // In binary: 0101
-// let b = 3; // In binary: 0011   
+// let b = 3; // In binary: 0011
 // console.log(a & b); // Bitwise AND: 0001 -> 1
 // console.log(a | b); // Bitwise OR: 0111 -> 7
 // console.log(~a);    // Bitwise NOT: 1010 -> -6
@@ -132,7 +131,19 @@
 // Parentheses have the highest precedence
 // Multiplication and Division have higher precedence than Addition and Subtraction
 
-let result = 10 + 5 * 2; // Multiplication first, then Addition
-console.log(result); // 20
-result = (10 + 5) * 2; // Parentheses first, then Multiplication
-console.log(result); // 30
+// let result = 10 + 5 * 2; // Multiplication first, then Addition
+// console.log(result); // 20
+// result = (10 + 5) * 2; // Parentheses first, then Multiplication
+// console.log(result); // 30
+
+
+// Exercise: Swap the values of two variables
+
+// let a = "red";
+// let b = "blue";
+// let c = a;
+// a = b;
+// b = c;
+
+// console.log(a);
+// console.log(b);
