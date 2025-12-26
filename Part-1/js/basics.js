@@ -30,18 +30,26 @@
 // Reference Types: Object, Array, Function
 
 // String Literal
-let name = "Mosh";
+// let name = "Mosh";
 
 // Number Literal
-let age = 30;
+// let age = 30;
 
 // Boolean Literal
-let isApproved = false;
+// let isApproved = false;
 
 // Undefined
-let firstName = undefined;
+// let firstName = undefined;
 
 // Null
-let selectedColor = null;
+// let selectedColor = null;
 // We use null when we want to clear the value of a variable
+
+// Dynamic Typing
+
+// There are two types of languages: Static Typing and Dynamic Typing
+// In Static Typing languages, the type of a variable is known at compile time
+// In Dynamic Typing languages, the type of a variable is known at runtime
+
+// In Javascript we dont have two separate types for Integer and Float, we have only one type: Number
 
