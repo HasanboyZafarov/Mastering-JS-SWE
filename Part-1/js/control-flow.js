@@ -99,3 +99,17 @@
 
 // We use "for...in" to iterate over the properties of an object and "for...of" to iterate over the values of an iterable object like an array.
 // Note: "for...of" cannot be used to iterate over objects directly.
+
+// Break and Continue`
+
+let i = 0;
+while (i <= 10) {
+  // if (i === 5) break;
+  if (i % 2 == 0) {
+    i++;
+    continue;
+  }
+  
+  console.log(i);
+  i++;
+}
