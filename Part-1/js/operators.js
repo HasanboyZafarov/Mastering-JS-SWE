@@ -51,3 +51,16 @@
 // console.log(x === "1"); // Strict equal to - false
 // console.log(x != 2); // Not equal to - true
 // console.log(x !== "1"); // Strict not equal to - true
+
+
+// Equality operators are used in conditional statements and loops
+
+// Strict equality (Value + Type)
+// console.log(1 === 1); // true
+// console.log(1 === "1"); // false
+// Strict equality checks for both value and type
+
+// Loose equality (Value)
+// console.log(1 == 1); // true
+// console.log(1 == "1"); // true
+// Loose equality checks for value only, performs type coercion if necessary
