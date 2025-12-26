@@ -1,6 +1,6 @@
 // Variables
-let name = "David";
-console.log(name);
+// let name = "David";
+// console.log(name);
 
 // Cannot be a reserved keywords
 // Should be meaningful
@@ -8,7 +8,40 @@ console.log(name);
 // Cannot contain a space or hyphen (-)
 // They are case-sensitive
 
-let firstName = "Mosh";
-let lastName = "Hamedani";
+// let firstName = "Mosh";
+// let lastName = "Hamedani";
+
 // camel Notation
 // camelCase => first word should be lower case, and first letter of every after word must be UpperCase
+
+// Constants
+
+// const interestRate = 0.3;
+// interestRate = 1;
+// console.log(interestRate);
+
+// If you want a variable that never changes, use const
+
+// Data Types
+
+// Primitive vs Reference Types
+
+// Primitive Types: String, Number, Boolean, Undefined, Null, Symbol (ES6)
+// Reference Types: Object, Array, Function
+
+// String Literal
+let name = "Mosh";
+
+// Number Literal
+let age = 30;
+
+// Boolean Literal
+let isApproved = false;
+
+// Undefined
+let firstName = undefined;
+
+// Null
+let selectedColor = null;
+// We use null when we want to clear the value of a variable
+
