@@ -91,3 +91,24 @@
 
 // let applicationRefused = !eligibleForLoan;
 // console.log("Application Refused", applicationRefused);
+
+// Logical operators with non-boolean values
+
+// Falsy values: false, 0, "", null, undefined, NaN
+// values that evaluate to false in a boolean context
+// Examples of Falsy values:
+
+// Truthy values: All values that are not falsy
+
+// console.log(false || "Hello"); // "Hello"
+// console.log(false || 1); // 1
+// console.log(false || 0); // 0
+
+// console.log("Hello" && 123); // 123
+// console.log(1 && "World"); // "World"
+// console.log(0 && "World"); // 0
+
+// let userColor = "Red";
+// let defaultColor = "Blue";
+// let currentColor = userColor || defaultColor;
+// console.log(currentColor); // "Blue"
