@@ -107,3 +107,6 @@
 // console.log(number);
 
 // console.log(square(number));
+
+// Done
+// End of Part-1/js/basics.js
