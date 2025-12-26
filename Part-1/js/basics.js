@@ -74,9 +74,19 @@
 // console.log(person);
 
 // Array
-let selectedColors = ["red", "blue"];
-selectedColors[2] = "green";
-selectedColors[3] = 4;
-console.log(selectedColors);
+// let selectedColors = ["red", "blue"];
+// selectedColors[2] = "green";
+// selectedColors[3] = 4;
+// console.log(selectedColors);
 
 // Array is an object that helps us store multiple values in a single variable
+
+// Function
+function greet(name) {
+  console.log("Hello " + name);
+}
+greet("John");
+
+// Difference between parameters and arguments
+// Parameter is the variable that we declare in the function definition
+// Argument is the actual value that we pass to the function when we call it
