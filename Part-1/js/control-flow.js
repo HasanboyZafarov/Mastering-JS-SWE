@@ -90,3 +90,12 @@
 // for (index in colors) {
 //   console.log(colors[index]);
 // }
+
+// For ... of
+// const colors = ["red", "green", "blue"];
+// for (key of colors) {
+//   console.log(key);
+// }
+
+// We use "for...in" to iterate over the properties of an object and "for...of" to iterate over the values of an iterable object like an array.
+// Note: "for...of" cannot be used to iterate over objects directly.
