@@ -52,7 +52,6 @@
 // console.log(x != 2); // Not equal to - true
 // console.log(x !== "1"); // Strict not equal to - true
 
-
 // Equality operators are used in conditional statements and loops
 
 // Strict equality (Value + Type)
@@ -64,3 +63,12 @@
 // console.log(1 == 1); // true
 // console.log(1 == "1"); // true
 // Loose equality checks for value only, performs type coercion if necessary
+
+// Ternary Operator
+
+// If a customer has more than 100 points, they are 'Gold' else 'Silver'
+
+// let points = 90;
+// let type = points > 100 ? "Gold" : "Silver";
+// console.log(type);
+
