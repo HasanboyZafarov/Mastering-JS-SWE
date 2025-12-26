@@ -82,11 +82,28 @@
 // Array is an object that helps us store multiple values in a single variable
 
 // Function
-function greet(name) {
-  console.log("Hello " + name);
-}
-greet("John");
+// function greet(name) {
+//   console.log("Hello " + name);
+// }
+// greet("John");
 
 // Difference between parameters and arguments
 // Parameter is the variable that we declare in the function definition
 // Argument is the actual value that we pass to the function when we call it
+
+// Types of Functions
+// Performing a task
+// function greet(name, lastName) {
+//   console.log("Hello " + name + " " + lastName);
+// }
+// greet("John", "Smith");
+
+// Calculating a value
+// function square(number) {
+//   return number * number;
+// }
+
+// let number = square(3);
+// console.log(number);
+
+// console.log(square(number));
