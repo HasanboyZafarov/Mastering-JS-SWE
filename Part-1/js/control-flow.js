@@ -15,21 +15,35 @@
 
 // Switch Case
 
-let role;
+// let role;
 
-switch (role) {
-  case "guest":
-    console.log("Guest User");
-    break;
+// switch (role) {
+//   case "guest":
+//     console.log("Guest User");
+//     break;
 
-  case "moderator":
-    console.log("Moderator User");
-    break;
+//   case "moderator":
+//     console.log("Moderator User");
+//     break;
 
-  default:
-    console.log("Unknown Role");
+//   default:
+//     console.log("Unknown Role");
+// }
+
+// if (role === "guest") console.log("Guest");
+// else if (role === "moderator") console.log("Moderator");
+// else console.log("Unknown");
+
+// Loops
+// For, While, Do...while, For...in, For...of
+
+// console.log("Hello World");
+// console.log("Hello World");
+// console.log("Hello World");
+// console.log("Hello World");
+// console.log("Hello World");
+
+for (let i = 5; i >= 1; i--) {
+  // console.log("Hello World", i);
+  if (i % 2 != 0) console.log(i);
 }
-
-if (role === "guest") console.log("Guest");
-else if (role === "moderator") console.log("Moderator");
-else console.log("Unknown");
