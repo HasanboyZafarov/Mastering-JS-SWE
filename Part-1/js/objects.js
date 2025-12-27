@@ -60,13 +60,48 @@
 
 // Dynamic nature of Objects
 
-let circle = {
-  radius: 1,
-};
-circle.color = "yellow";
-circle.draw = function () {
-  console.log("Draw");
-};
+// let circle = {
+//   radius: 1,
+// };
+// circle.color = "yellow";
+// circle.draw = function () {
+//   console.log("Draw");
+// };
 
-delete circle.draw;
-console.log(circle);
+// delete circle.draw;
+// console.log(circle);
+
+// function createCircle(radius) {
+//   return {
+//     radius,
+
+//     draw() {
+//       console.log("draw");
+//     },
+//   };
+// }
+
+// const circle1 = createCircle(1);
+
+// function Circle(radius) {
+//   this.radius = radius;
+//   this.draw = function () {
+//     console.log("draw");
+//   };
+// }
+
+// const another = new Circle(1);
+
+// let x = {};
+// let x = new Object()
+
+// Constructor Properties
+
+// new String(); // '', "",``
+// new Boolean(); // true, false
+// new Number(); // 1, 2, 3 ... etc
+
+// if (new Boolean(false)) {
+//   console.log("runs"); // runs!
+// }
+
