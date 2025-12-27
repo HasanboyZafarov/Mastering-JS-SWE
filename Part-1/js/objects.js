@@ -7,16 +7,53 @@
 // circle.draw(); // We call it method
 
 // Factory Functions
-function createCircle(radius) {
-  return {
-    radius,
+// function createCircle(radius) {
+//   return {
+//     radius,
 
-    draw() {
-      console.log("draw");
-    },
-  };
-}
+//     draw() {
+//       console.log("draw");
+//     },
+//   };
+// }
 
-const circle1 = createCircle(1);
-console.log(circle1);
-circle1.draw()
+// const circle1 = createCircle(1);
+// console.log(circle1);
+// circle1.draw()
+
+// function createUser(name) {
+//   return {
+//     name,
+//     greet() {
+//       console.log("Hi", name);
+//     },
+//   };
+// }
+// let user1 = createUser("Alice");
+// let user2 = createUser("Bob");
+// user1.greet()
+// user2.greet()
+
+// Camel Notation: oneTwoThreeFourFive
+// Pascal Notation: OneTwoThreeFourFive
+
+// function Circle(radius) {
+//   this.radius = radius;
+//   this.draw = function () {
+//     console.log("draw");
+//   };
+// }
+
+// let circle = new Circle(1);
+
+// function CreateUser(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+// CreateUser.prototype.greet = function () {
+//   console.log(`Hi I'm ${this.name} and I'm ${this.age} years old`);
+// };
+// let user1 = new CreateUser("Bob", 45);
+// let user2 = new  CreateUser("Alice", 30);
+// user1.greet();
+// user2.greet();
