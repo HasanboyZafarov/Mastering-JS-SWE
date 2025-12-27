@@ -4,16 +4,19 @@
 
 // Object-Oriented Programming (OOP)
 
-const circle = {
-  radius: 1,
-  location: {
-    x: 1,
-    y: 1,
-  },
-  isVisible: true,
-  draw: function () {
-    console.log("Draw");
-  },
-};
+// circle.draw(); // We call it method
 
-circle.draw(); // We call it method
+// Factory Functions
+function createCircle(radius) {
+  return {
+    radius,
+
+    draw() {
+      console.log("draw");
+    },
+  };
+}
+
+const circle1 = createCircle(1);
+console.log(circle1);
+circle1.draw()
