@@ -57,3 +57,16 @@
 // let user2 = new  CreateUser("Alice", 30);
 // user1.greet();
 // user2.greet();
+
+// Dynamic nature of Objects
+
+let circle = {
+  radius: 1,
+};
+circle.color = "yellow";
+circle.draw = function () {
+  console.log("Draw");
+};
+
+delete circle.draw;
+console.log(circle);
