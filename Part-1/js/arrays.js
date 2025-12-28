@@ -85,3 +85,17 @@
 
 // console.log(numbers);
 // console.log(another);
+
+// Combining and Slicing Arrays
+// let first = [1, 2, 3];
+// let second = [4, 5, 6];
+
+// let combined = first.concat(second);
+// console.log(combined);
+
+// let sliced = combined.slice(2, 4);
+// console.log(combined);
+
+// console.log(sliced);
+
+// Concat will get a copy of array, if it's primitive type, it will copy the value, if it's reference type, it will copy the reference
