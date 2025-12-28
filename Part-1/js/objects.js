@@ -105,3 +105,13 @@
 //   console.log("runs"); // runs!
 // }
 
+// Functions are Objects
+
+// function Circle(radius) {
+//   (this.radius = radius),
+//     (this.draw = function () {
+//       console.log("draw");
+//     });
+// }
+
+// let another = new Circle(1);
