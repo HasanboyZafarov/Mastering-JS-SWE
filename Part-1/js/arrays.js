@@ -21,3 +21,18 @@
 
 // console.log(numbers.indexOf(1) !== -1);
 // console.log(numbers.includes(1));
+
+// Finding Reference
+
+// const courses = [
+//   { id: 1, name: "a" },
+//   { id: 2, name: "b" },
+// ];
+
+// console.log(courses.includes({ id: 1, name: "a" }));
+// let found = courses.findIndex(function (course) {
+//   return course.name === "b";
+// });
+
+// console.log(found);
+
