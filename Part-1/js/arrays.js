@@ -99,3 +99,13 @@
 // console.log(sliced);
 
 // Concat will get a copy of array, if it's primitive type, it will copy the value, if it's reference type, it will copy the reference
+
+// Spread Operator
+// const first = [1, 2, 3];
+// const second = [4, 5, 6];
+
+// const combined = [...first, ...second];
+// console.log(combined);
+
+// const copy = [...combined];
+// console.log(copy);
