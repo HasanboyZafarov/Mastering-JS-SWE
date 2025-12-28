@@ -188,8 +188,25 @@
 // console.log(another);
 
 // String Primitive
-let message = "This is my first message";
+// let message = "This is my first message";
 
 // String Object
-let another = new String("hi");
+// let another = new String("hi");
 
+// Template Literals
+
+// let message = "This is my\n" + " first message";
+
+// Object {}
+// Boolean true false
+// String "" ''
+// Template ``
+// let name = "John";
+// const another = `Hi ${name},
+
+// Thank you for joining my mailing list.
+
+// Regards,
+// Mosh`;
+
+// console.log(another);
