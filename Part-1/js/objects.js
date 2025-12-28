@@ -115,3 +115,25 @@
 // }
 
 // let another = new Circle(1);
+
+// Value Types
+// Number, String, Boolean, Symbol, undefined, null
+
+// Reference Types
+// Object, Function, Array
+
+// let x = 10;
+// let y = x;
+// console.log(x);
+// console.log(y);
+
+// x = 20;
+// console.log(x);
+// console.log(y);
+
+// let x = { value: 10 };
+// let y = x;
+
+// x.value = 20
+// console.log(y);
+
