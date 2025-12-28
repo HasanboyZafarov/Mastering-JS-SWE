@@ -1,12 +1,23 @@
-const numbers = [3, 4];
+// Adding Elements
 
-// End
-numbers.push(5);
+// const numbers = [3, 4];
 
-// Beginning
-numbers.unshift(1, 2);
+// // End
+// numbers.push(5);
 
-// Middle
-numbers.splice(2, 0, "a", "b");
+// // Beginning
+// numbers.unshift(1, 2);
 
-console.log(numbers);
+// // Middle
+// numbers.splice(2, 0, "a", "b");
+
+// console.log(numbers);
+
+// Finding Elements - Primitive Types
+
+// const numbers = [1, 2, 3, 1, 4];
+// console.log(numbers.indexOf(1));
+// console.log(numbers.lastIndexOf(1));
+
+// console.log(numbers.indexOf(1) !== -1);
+// console.log(numbers.includes(1));
