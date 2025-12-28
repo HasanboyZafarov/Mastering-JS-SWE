@@ -186,3 +186,10 @@
 // const another = { ...{ color: "yellow" }, ...circle };
 
 // console.log(another);
+
+// String Primitive
+let message = "This is my first message";
+
+// String Object
+let another = new String("hi");
+
