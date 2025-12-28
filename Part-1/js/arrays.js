@@ -118,3 +118,16 @@
 // numbers.forEach((number, index) => console.log(index, number));
 
 // We can also get the index of the element while iterating using forEach method
+
+// Joining Arrays
+
+// const numbers = [1, 2, 3];
+// let joined = numbers.join(",");
+// console.log(joined);
+
+// const message = "This is my first message";
+// const parts = message.split(" ");
+// console.log(parts);
+
+// const combined = parts.join("-");
+// console.log(combined);
