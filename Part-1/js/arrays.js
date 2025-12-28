@@ -109,3 +109,12 @@
 
 // const copy = [...combined];
 // console.log(copy);
+
+// Iterating an Array
+
+// const numbers = [1, 2, 3];
+
+// for (number of numbers) console.log(number);
+// numbers.forEach((number, index) => console.log(index, number));
+
+// We can also get the index of the element while iterating using forEach method
