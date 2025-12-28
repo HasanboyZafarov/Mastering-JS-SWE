@@ -139,31 +139,50 @@
 
 // Enumerating Properties of an Object
 
+// let circle = {
+//   radius: 1,
+//   draw() {
+//     console.log("draw");
+//   },
+// };
 
-let circle = {
-  radius: 1,
-  draw() {
-    console.log("draw");
-  },
-};
+// for (let key in circle) console.log(key, circle[key]);
 
-for (let key in circle) console.log(key, circle[key]);
+// for (key of circle) {
+//   console.log(key);
+// }
 
-for (key of circle) {
-  console.log(key);
-}
+// const obj = { a: 1, b: 2 };
 
-const obj = { a: 1, b: 2 };
+// for (let key in obj) {
+//   console.log(key); // a, b
+// }
 
-for (let key in obj) {
-  console.log(key); // a, b
-}
+// if (obj.hasOwnProperty(key)) {
+// }
 
-if (obj.hasOwnProperty(key)) {
-}
+// Object.keys(obj); // ["a", "b"]
+// Object.values(obj); // [1, 2]
+// Object.entries(obj);
+// // [["a", 1], ["b", 2]]
+// obj.hasOwnProperty("a"); // true
 
-Object.keys(obj); // ["a", "b"]
-Object.values(obj); // [1, 2]
-Object.entries(obj);
-// [["a", 1], ["b", 2]]
-obj.hasOwnProperty("a"); // true
+// Cloning an Object
+
+// let circle = {
+//   radius: 1,
+//   draw() {
+//     console.log("draw");
+//   },
+// };
+
+// const another = {};
+// for (let key in circle) {
+//   another[key] = circle[key];
+// }
+
+// const another = Object.assign({}, circle);
+
+// const another = { ...{ color: "yellow" }, ...circle };
+
+// console.log(another);
