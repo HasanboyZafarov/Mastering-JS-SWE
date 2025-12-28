@@ -36,3 +36,12 @@
 
 // console.log(found);
 
+// Arraw Function
+
+// const courses = [
+//   { id: 1, name: "a" },
+//   { id: 2, name: "b" },
+// ];
+
+// console.log(courses.includes({ id: 1, name: "a" }));
+// let found = courses.findIndex((course) => course.name === "b");
