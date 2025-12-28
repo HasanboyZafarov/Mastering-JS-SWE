@@ -219,3 +219,122 @@
 
 // now.setFullYear(2017);
 // console.log(now);
+
+// Exercises
+
+// 1 Write function that shows properties and values of object
+
+// let address = {
+//   street: "Tor kocha",
+//   city: "Andijan",
+//   zipcode: 170003,
+// };
+
+// function showAddress(address) {
+//   for (key in address) {
+//     console.log(`${key}: ${address[key]}`);
+//   }
+// }
+
+// showAddress(address);
+
+// 2 Write a factory and constructor function based on given example
+
+// let address = {
+//   street: "Tor kocha",
+//   city: "Andijan",
+//   zipcode: 170003,
+// };
+
+// // Factory function
+// function newAddress(street, city, zipcode) {
+//   return { street, city, zipcode };
+// }
+// let address2 = newAddress("Tor kocha", "Andijan", 17003);
+// console.log(address2);
+
+// // Constructor function
+// function SetAddress(street, city, zipcode) {
+//   this.street = street;
+//   this.city = city;
+//   this.zipcode = zipcode;
+// }
+
+// let address3 = new SetAddress("Tor Kocha", "Andijan", 17002);
+// console.log(address3);
+
+// 3
+// let address1 = new SetAddress("a", "b", "c");
+// let address2 = new SetAddress("a", "b", "c");
+// let address3 = address1;
+// function SetAddress(street, city, zipcode) {
+//   this.street = street;
+//   this.city = city;
+//   this.zipcode = zipcode;
+// }
+
+// function areEqual(address1, address2) {
+//   return (
+//     address1.street === address2.street &&
+//     address1.city === address2.city &&
+//     address1.zipcode === address2.zipcode
+//   );
+// }
+// function areSame(address1, address2) {
+//   return address1 === address2;
+// }
+
+// console.log(areEqual(address1, address2));
+// console.log(areSame(address1, address2));
+
+// 4
+
+// let blogPost = {
+//   title: "a",
+//   body: "some text",
+//   author: "me",
+//   views: 13,
+//   comments: [
+//     { author: "nerdGuy", body: "some text" },
+//     { author: "nerdGuy", body: "some text" },
+//     { author: "nerdGuy", body: "some text" },
+//   ],
+//   isLive: true,
+// };
+
+// console.log(blogPost);
+
+// 5
+
+// let blogPost = {
+//   title: "a",
+//   body: "some text",
+//   author: "me",
+//   views: 13,
+//   comments: [
+//     { author: "nerdGuy", body: "some text" },
+//     { author: "nerdGuy", body: "some text" },
+//     { author: "nerdGuy", body: "some text" },
+//   ],
+//   isLive: true,
+// };
+
+// console.log(blogPost);
+// let dailyPost = new Post("a", "b", "c");
+// console.log(dailyPost);
+
+// function Post(title, body, author) {
+//   this.title = title;
+//   this.body = body;
+//   this.author = author;
+//   this.views = 0;
+//   this.comments = [];
+//   this.isLive = false;
+// }
+
+// 6
+// let priceRanges = [
+//   { label: "$", toolTip: "Inexpensive", minPerPerson: 0, maxPerPerson: 10 },
+//   { label: "$$", toolTip: "Moderate", minPerPerson: 11, maxPerPerson: 20 },
+//   { label: "$$$", toolTip: "Expensive", minPerPerson: 21, maxPerPerson: 50 },
+// ];

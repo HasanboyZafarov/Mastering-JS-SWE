@@ -137,7 +137,7 @@
 // console.log(result); // 30
 
 
-// Exercise: Swap the values of two variables
+// Exercises: Swap the values of two variables
 
 // let a = "red";
 // let b = "blue";

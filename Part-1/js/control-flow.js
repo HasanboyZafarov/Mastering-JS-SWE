@@ -114,6 +114,8 @@
 //   i++;
 // }
 
+// Exercises
+
 // Task 1
 
 // Write a function that takes two numbers
