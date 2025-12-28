@@ -131,3 +131,24 @@
 
 // const combined = parts.join("-");
 // console.log(combined);
+
+// Sorting Arrays
+
+// const number = [2, 3, 1];
+// console.log(number.sort());
+// console.log(number.reverse());
+
+// const courses = [
+//   { id: 1, name: "Node.js" },
+//   { id: 2, name: "javaScript" },
+// ];
+
+// console.log(
+//   courses.sort(function (a, b) {
+//     let nameA = a.name.toLowerCase();
+//     let nameB = b.name.toLowerCase();
+//     if (nameA < nameB) return -1;
+//     if (nameA > nameB) return 1;
+//     return 0;
+//   })
+// );
