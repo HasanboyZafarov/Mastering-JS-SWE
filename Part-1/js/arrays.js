@@ -164,3 +164,15 @@
 // });
 
 // console.log(atLeastOnePositive);
+
+// Filtering an Array
+
+// const numbers = [1, -1, 2, 3];
+// const filtered = numbers.filter(function (value) {
+//   return value >= 0;
+// });
+
+// const filtered2 = numbers.filter((n) => n <= 0);
+
+// console.log(filtered);
+// console.log(filtered2);
