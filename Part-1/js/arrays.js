@@ -179,13 +179,24 @@
 
 // Mapping an Array
 
-const numbers = [1, -1, 2, 3];
+// const numbers = [1, -1, 2, 3];
 // const filtered = number.filter((n) => n >= 0);
 // const items = filtered.map((n) => ({ value: n }));
-const items = numbers
-  .filter((n) => n >= 0)
-  .map((n) => ({ value: n }))
-  .filter((obj) => obj.value > 1)
-  .map((obj) => obj.value);
+// const items = numbers
+//   .filter((n) => n >= 0)
+//   .map((n) => ({ value: n }))
+//   .filter((obj) => obj.value > 1)
+//   .map((obj) => obj.value);
 
-console.log(items);
+// console.log(items);
+
+// Reducing an Array
+
+// const numbers = [1, 1, 2, 3];
+// let sum = 0;
+// for (key of numbers) sum += key;
+// console.log(sum);
+
+// let all = numbers.reduce((acc, newValue) => acc + newValue);
+
+// console.log(all);
