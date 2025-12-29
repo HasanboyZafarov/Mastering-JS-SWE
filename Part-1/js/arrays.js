@@ -176,3 +176,16 @@
 
 // console.log(filtered);
 // console.log(filtered2);
+
+// Mapping an Array
+
+const numbers = [1, -1, 2, 3];
+// const filtered = number.filter((n) => n >= 0);
+// const items = filtered.map((n) => ({ value: n }));
+const items = numbers
+  .filter((n) => n >= 0)
+  .map((n) => ({ value: n }))
+  .filter((obj) => obj.value > 1)
+  .map((obj) => obj.value);
+
+console.log(items);
