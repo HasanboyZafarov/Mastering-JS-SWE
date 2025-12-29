@@ -37,24 +37,48 @@
 // console.log(interest(10000, undefined, 5));
 
 // Getters and Setters
-const person = {
-  firstName: "Mosh",
-  lastName: "Hamedani",
-  get fullName() {
-    return `${person.firstName} ${person.lastName}`;
-  },
-  set fullName(value) {
-    const parts = value.split(" ");
-    this.firstName = parts[0];
-    this.lastName = parts[1];
-  },
-};
+// const person = {
+//   firstName: "Mosh",
+//   lastName: "Hamedani",
+//   get fullName() {
+//     return `${person.firstName} ${person.lastName}`;
+//   },
+//   set fullName(value) {
+//     const parts = value.split(" ");
+//     this.firstName = parts[0];
+//     this.lastName = parts[1];
+//   },
+// };
 
-person.fullName = "John Smith";
+// person.fullName = "John Smith";
 
 // getters => access properties
 // setters => change (mutate) them
 
 // console.log(person.fullName);
 
+// console.log(person);
+
+// Try and Catch
+
+// const person = {
+//   firstName: "Mosh",
+//   lastName: "Hamedani",
+//   set fullName(value) {
+//     if (typeof value !== "string") {
+//       throw new Error("Value is not a string");
+//     }
+//     const parts = value.split(" ");
+//     if (parts.length !== 2) {
+//       throw new Error("Enter a first and last name");
+//     }
+//     this.firstName = parts[0];
+//     this.lastName = parts[1];
+//   },
+// };
+// try {
+//   person.fullName = "";
+// } catch (e) {
+//   alert(e);
+// }
 // console.log(person);
