@@ -152,3 +152,15 @@
 //     return 0;
 //   })
 // );
+
+// Testing the Elements of an Array
+// const numbers = [1, -1, 2, 3];
+
+// every() => to check every value that matches criteria
+// some() => to check some value that matches criteria
+
+// const atLeastOnePositive = numbers.some(function (value) {
+//   return value >= 0;
+// });
+
+// console.log(atLeastOnePositive);
