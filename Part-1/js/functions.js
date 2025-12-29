@@ -82,3 +82,24 @@
 //   alert(e);
 // }
 // console.log(person);
+
+// Local and Global scope
+
+// {
+//   const message = "hi";
+// }
+
+// console.log(message);
+
+// const color = "red";
+// function start() {
+//   const message = "hi";
+//   const color = "blue";
+//   console.log(color);
+// }
+
+// function stop() {
+//   const message = "bye";
+// }
+
+// start();
