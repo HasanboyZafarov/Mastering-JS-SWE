@@ -28,3 +28,10 @@
 //   return total * (1 - discount);
 // }
 // console.log(sum(0.2, 20, 30));
+
+// Default Parametres
+// function interest(principal, rate = 3.5, years) {
+//   return ((principal * rate) / 100) * years;
+// }
+
+// console.log(interest(10000, undefined, 5));
