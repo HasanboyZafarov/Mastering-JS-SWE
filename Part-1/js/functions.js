@@ -127,3 +127,32 @@
 // function sayHi() {
 //   console.log("Hi");
 // }
+
+// This keyword
+// the object tha is executing the current function
+
+// method => obj
+// function => global (window, global)
+
+// const video = {
+//   title: "a",
+//   tags: ["a", "b", "c"],
+//   showTags() {
+//     this.tags.forEach(function (tag) {
+//       console.log(this, tag);
+//     }, this);
+//   },
+// };
+// video.showTags();
+// video.stop = function () {
+//   console.log(this);
+// };
+
+// function Video(title) {
+//   this.title = title;
+//   console.log(this);
+// }
+
+// video.play();
+
+// const v = new Video("b");
