@@ -180,3 +180,42 @@
 // playVideo.apply({ name: "Mosh" }, [1, 2]);
 // let video = playVideo.bind({ name: "Mosh" })();
 // playVideo();
+
+// Exercises
+
+// Write a function that return the sum of arguments
+// function sum(...args) {
+//   let total = 0;
+//   if (args.length === 1) for (key of args[0]) total += key;
+//   else for (key of args) total += key;
+//   return total;
+// }
+// console.log(sum(1, 2, 3, 4));
+
+// Area of Circle
+// const circle = {
+//   radius: 1,
+//   get area() {
+//     return Math.PI * this.radius * this.radius;
+//   },
+// };
+
+// console.log(circle.area);
+
+// Error Handling
+
+// const numbers = [1, 2, 3, 4, 1];
+// try {
+//   const count = countOccurrences(numbers, 1);
+//   console.log(count);
+// } catch (e) {
+//   console.log(e);
+// }
+
+// function countOccurrences(array, searchEl) {
+//   if (!Array.isArray(array)) throw new Error("Not Array");
+//   return array.reduce((acc, currenVal) => {
+//     const occurrences = currenVal === searchEl ? 1 : 0;
+//     return acc + occurrences;
+//   }, 0);
+// }
