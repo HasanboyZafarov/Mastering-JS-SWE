@@ -29,3 +29,15 @@
 // const circle = createCircle(1);
 
 // circle.draw();
+
+// Constuctor Function
+
+// function Circle(radius) {
+//   this.radius = radius;
+//   this.draw = function () {
+//     console.log("another");
+//   };
+// }
+
+// const another = new Circle(1);
+// another.draw();
