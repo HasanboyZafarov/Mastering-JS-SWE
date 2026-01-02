@@ -8,10 +8,24 @@
 //   },
 // };
 
+// circle.draw()
 // properties: radius, location
 // methods: function
 
 // properties are used to hold data
 // methods are used to define some logic
 
-// circle.draw()
+// Factory Function
+
+// function createCircle(radius) {
+//   return {
+//     radius,
+//     draw: function () {
+//       console.log("salom");
+//     },
+//   };
+// }
+
+// const circle = createCircle(1);
+
+// circle.draw();
