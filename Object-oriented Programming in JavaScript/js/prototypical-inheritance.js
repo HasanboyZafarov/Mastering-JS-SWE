@@ -1,7 +1,5 @@
 // Prototypical inheritance
 
-const { Children } = require("react");
-
 // function Shape() {}
 
 // Shape.prototype.duplicate = function () {
@@ -79,5 +77,27 @@ const { Children } = require("react");
 // }
 // extend(Square, Shape);
 
-// Square.prototype = Object.create(Shape.prototype);
-// Square.prototype.constructor = Square;
+// Method Overriding
+
+// function extend(Child, Parent) {
+//   Child.prototype = Object.create(Parent.prototype);
+//   Child.prototype.constructor = Child;
+// }
+
+// function Shape() {}
+
+// Shape.prototype.duplicate = function () {
+//   console.log("duplicate");
+// };
+
+// function Circle() {}
+
+// extend(Circle, Shape);
+
+// Circle.prototype.duplicate = function () {
+//   Shape.prototype.duplicate.call(this);
+
+//   console.log("duplicate circle");
+// };
+
+// const c = new Circle();
