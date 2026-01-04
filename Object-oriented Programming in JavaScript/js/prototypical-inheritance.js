@@ -216,3 +216,63 @@
 // HtmlSelectElement.prototype = new HtmlElement(); // baseHtmlElement
 // HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 // const s = new HtmlSelectElement([1, 2, 3]);
+
+// Polymorphism
+
+function HtmlElement() {
+  this.click = function () {
+    console.log("clicked");
+  };
+}
+
+HtmlElement.prototype.focus = function () {
+  console.log("focusing");
+};
+
+const e = new HtmlElement();
+
+function HtmlSelectElement(items = []) {
+  this.items = items;
+  this.addItem = function (value) {
+    this.items.push(value);
+    console.log("Successfully added");
+  };
+  this.removeItem = function (value) {
+    if (!items.includes(value))
+      throw new Error(`You can't delete element that is not in the Array`);
+
+    this.items.splice(this.items.indexOf(value), 1);
+    console.log("Successfully deleted");
+  };
+  this.render = function () {
+    let string = ``;
+
+    for (key of this.items) {
+      string += `\t<option>${key}</option>\n`;
+    }
+    let result = `<select>
+${string}</select>`;
+
+    return result;
+  };
+}
+
+function HtmlImageElement(src = "") {
+  this.src = src;
+  this.render = function () {
+    return `<img src="${src}" />`;
+  };
+}
+
+HtmlSelectElement.prototype = new HtmlElement();
+HtmlSelectElement.prototype.constructor = HtmlSelectElement;
+
+HtmlImageElement.prototype = new HtmlElement();
+HtmlImageElement.prototype.constructor = HtmlSelectElement;
+
+const elements = [
+  new HtmlSelectElement([1, 2, 3]),
+  new HtmlImageElement("https://"),
+];
+
+for (let el of elements) console.log(el.render());
