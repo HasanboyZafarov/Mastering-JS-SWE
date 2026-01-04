@@ -19,3 +19,17 @@
 // }
 
 // const c = new Circle(1);
+
+// Hoisting
+
+// Function Declaration
+// function sayHello() {}
+
+// Function Exression
+// const sayGoodBye = function () {};
+
+// Class Declaration
+// class Circle {}
+
+// Class Expression
+// const Square = class {};
