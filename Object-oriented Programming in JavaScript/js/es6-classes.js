@@ -172,3 +172,72 @@
 //   }
 // }
 // const c = new Circle();
+
+// Exercise
+
+// Stack()
+
+// peek - stack ni ichidagi ohirgi elementni chiqarib beradi, lekin ochirib tashlamaydi
+// pop - ohirgi qoshilgan elementni ochiradi
+// push - element qoshadi
+// count
+// "use strict";
+// const _stack = new WeakMap();
+// class Stack {
+//   #stack;
+//   constructor() {
+//     this.#stack = [];
+//   }
+//   pop() {
+//     if (this.#stack.length == 0) throw new Error("Stack is empty");
+//     this.#stack.pop();
+//   }
+//   peek() {
+//     if (this.#stack.length == 0) throw new Error("Stack is empty");
+//     return this.#stack[this.#stack.length - 1];
+//   }
+//   push(value) {
+//     this.#stack.push(value);
+//   }
+//   get count() {
+//     return this.#stack.length === undefined ? 0 : this.#stack.length;
+//   }
+// }
+
+// const s = new Stack();
+
+// "use strict";
+
+// const _stack = new WeakMap();
+
+// class Stack {
+//   constructor() {
+//     _stack.set(this, []);
+//   }
+
+//   push(value) {
+//     _stack.get(this).push(value);
+//   }
+
+//   pop() {
+//     const items = _stack.get(this);
+//     if (items.length === 0) {
+//       throw new Error("Stack is empty");
+//     }
+//     return items.pop();
+//   }
+
+//   peek() {
+//     const items = _stack.get(this);
+//     if (items.length === 0) {
+//       throw new Error("Stack is empty");
+//     }
+//     return items[items.length - 1];
+//   }
+
+//   get count() {
+//     return _stack.get(this).length;
+//   }
+// }
+
+// const s = new Stack();
