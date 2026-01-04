@@ -1,3 +1,5 @@
+"use strict";
+
 // function Circle(radius) {
 //   this.radius = radius;
 
@@ -63,3 +65,14 @@
 // }
 
 // Math.abs(2);
+
+// the This keyword
+// class Circle {
+//   draw() {
+//     console.log(this);
+//   }
+// }
+
+// const c = new Circle();
+// const draw = c.draw;
+// draw();
