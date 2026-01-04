@@ -180,3 +180,39 @@
 // function Dog() {}
 // mixin(Dog.prototype, canEat, canBark, canSwim, canWalk);
 // const d = new Dog();
+
+// Exercise
+
+// Prototypical Inheritance
+
+// function HtmlElement() {
+//   this.click = function () {
+//     console.log("clicked");
+//   };
+// }
+
+// HtmlElement.prototype.focus = function () {
+//   console.log("focusing");
+// };
+
+// const e = new HtmlElement();
+
+// function HtmlSelectElement(items = []) {
+//   //   HtmlElement.call(this);
+//   this.items = items;
+//   this.addItem = function (value) {
+//     this.items.push(value);
+//     console.log("Successfully added");
+//   };
+//   this.removeItem = function (value) {
+//     if (!items.includes(value))
+//       throw new Error(`You can't delete element that is not in the Array`);
+
+//     this.items.splice(this.items.indexOf(value), 1);
+//     console.log("Successfully deleted");
+//   };
+// }
+// // baseHtmlSelectElement
+// HtmlSelectElement.prototype = new HtmlElement(); // baseHtmlElement
+// HtmlSelectElement.prototype.constructor = HtmlSelectElement;
+// const s = new HtmlSelectElement([1, 2, 3]);
